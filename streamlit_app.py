@@ -1,10 +1,10 @@
 import streamlit as st
-
+import matplotlib.pyplot as plt
+import numpy as np
 st.title("Reeb Vector Field Visualizer")
 st.markdown("""hi""")
 # Import necessary libraries
-import matplotlib.pyplot as plt
-import numpy as np
+
 
 # Define the grid for visualization
 x = np.linspace(-2, 2, 20)
