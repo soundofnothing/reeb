@@ -132,9 +132,9 @@ if nav == 'Reeb Vector Field':
     st.pyplot(plot_reeb_vector_field(a, b))
     manifold_equation = st.text_input('Specify the manifold equation')
     
-    elif nav == 'Jet Space':
-        st.write('Jet Space Visualization')
-        st.pyplot(visualize_jet_space())
+elif nav == 'Jet Space':
+    st.write('Jet Space Visualization')
+    st.pyplot(visualize_jet_space())
     
     # # Button to find and plot periodic orbit
     # if st.button('Find Periodic Orbit'):
