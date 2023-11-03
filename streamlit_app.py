@@ -1,8 +1,7 @@
 import streamlit as st
 
 st.title("Reeb Vector Field Visualizer")
-st.markdown(
-"""
+st.markdown("""
 **Language > Specialist**: Mathematics > Symplectic Topology Expert
 **Includes**: Understanding of Reeb vector fields, Hamiltonian systems, and programming skills for visualization (preferably in Python using libraries such as matplotlib or streamlit).
 **Requirements**: Explanation of Reeb vector fields followed by the creation of a visualization to aid in understanding the concept further.
@@ -34,8 +33,7 @@ Creating a visualization for Reeb vector fields can provide intuitive insights i
 Now, to create a basic visualization, we could use Python along with a library such as matplotlib for plotting. However, for a more interactive visualization, Streamlit would be a good choice. 
 
 Shall we proceed with setting up a basic structure for the visualization using matplotlib, or would you prefer creating an interactive Streamlit app?
-"""
-)
+""")
 # Import necessary libraries
 import matplotlib.pyplot as plt
 import numpy as np
