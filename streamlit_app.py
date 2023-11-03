@@ -41,6 +41,7 @@ st.markdown(
 
    
     $d\\alpha(\\text{Reeb}, \\cdot) = 0$
+    
     In simpler terms, the Reeb vector field is a vector field on the contact manifold that flows along the directions where the contact form is constant, and it is transverse to the contact distribution (the hyperplane field $\\xi$) everywhere.
 
     In the context of the Weinstein Conjecture, the conjecture asserts the existence of closed orbits of the Reeb vector field on a compact contact manifold. These orbits are crucial for studying the dynamical properties of the manifold.
