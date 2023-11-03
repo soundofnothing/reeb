@@ -37,12 +37,11 @@ st.markdown(
     """
     Reeb vector fields are fundamental objects in the study of contact geometry and symplectic topology. They arise from the structure of a contact manifold, which is a smooth manifold endowed with a specific type of geometric structure called a contact structure. A contact structure on a manifold \(M\) is given by a hyperplane field \(\xi\) which is maximally non-integrable. The Reeb vector field is then defined uniquely by the contact form \(\alpha\) associated with the contact structure, satisfying the conditions:
 
-    $\\alpha(\text{Reeb}) = 1$
+    $\\alpha(\\text{Reeb}) = 1$
 
     \\[
-    d\alpha(\text{Reeb}, \cdot) = 0
+    d\\alpha(\\text{Reeb}, \\cdot) = 0$$
     \\]
-
     In simpler terms, the Reeb vector field is a vector field on the contact manifold that flows along the directions where the contact form is constant, and it is transverse to the contact distribution (the hyperplane field \(\xi\)) everywhere.
 
     In the context of the Weinstein Conjecture, the conjecture asserts the existence of closed orbits of the Reeb vector field on a compact contact manifold. These orbits are crucial for studying the dynamical properties of the manifold.
