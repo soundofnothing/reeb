@@ -28,12 +28,7 @@ Creating a visualization for Reeb vector fields can provide intuitive insights i
 2. **Define Contact Manifold**: Create a representation of a contact manifold, either symbolically or through a discrete data set.
 3. **Compute Reeb Vector Field**: Use the definition of the Reeb vector field to compute it on the contact manifold.
 4. **Visualization**: Create a 2D/3D visualization showing the Reeb vector field, its flow lines, and possibly the contact structure on the manifold.
-5. **Interactive Features (Optional)**: If using Streamlit, add interactive features to explore different contact manifolds and see how the Reeb vector field changes.
-
-Now, to create a basic visualization, we could use Python along with a library such as matplotlib for plotting. However, for a more interactive visualization, Streamlit would be a good choice. 
-
-Shall we proceed with setting up a basic structure for the visualization using matplotlib, or would you prefer creating an interactive Streamlit app?
-""")
+5. **Interactive Features (Optional)**: If using Streamlit, add interactive features to explore different contact manifolds and see how the Reeb vector field changes.""")
 # Import necessary libraries
 import matplotlib.pyplot as plt
 import numpy as np
