@@ -35,6 +35,18 @@ def plot_reeb_vector_field(a, b):
 st.title('Reeb Vector Field Visualization')
 st.write('Visualizing the Reeb vector field on a simple contact manifold.')
 
+# Explanation and Manifold Equation
+st.write(
+    """
+    The contact form $\\alpha$ is given by the expression:
+    \[
+    \\alpha = dz - a y dx - b x dy
+    \]
+    Here, $a$ and $b$ are coefficients that determine the behavior of the contact form and the Reeb vector field.
+    The manifold's equation can be expressed as a level set of a Hamiltonian function $H$ such that $H(x, y, z) = 0$.
+    """
+)
+
 # User input for parameters a and b
 a = st.slider('Parameter a', -10.0, 10.0, 0.0)
 b = st.slider('Parameter b', -10.0, 10.0, 0.0)
