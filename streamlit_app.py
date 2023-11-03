@@ -4,16 +4,16 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Define function to plot Reeb vector field
-def plot_reeb_vector_field():
+def plot_reeb_vector_field(a, b):
     # Define the grid for visualization
     x = np.linspace(-2, 2, 20)
     y = np.linspace(-2, 2, 20)
     X, Y = np.meshgrid(x, y)
     Z = np.zeros_like(X)
 
-    # Reeb vector field components
-    U = np.zeros_like(X)
-    V = np.zeros_like(Y)
+    # Reeb vector field components for the new contact form
+    U = -b * np.ones_like(X)
+    V = a * np.ones_like(Y)
     W = np.ones_like(Z)
 
     # Create the figure and axis
@@ -35,5 +35,9 @@ def plot_reeb_vector_field():
 st.title('Reeb Vector Field Visualization')
 st.write('Visualizing the Reeb vector field on a simple contact manifold.')
 
+# User input for parameters a and b
+a = st.slider('Parameter a', -10.0, 10.0, 0.0)
+b = st.slider('Parameter b', -10.0, 10.0, 0.0)
+
 # Display the visualization
-st.pyplot(plot_reeb_vector_field())
+st.pyplot(plot_reeb_vector_field(a, b))
